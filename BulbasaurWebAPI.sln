@@ -1,0 +1,60 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{8A478C06-D561-4ED4-B037-CA0133CE3088}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{EA96D82E-E4AA-43B6-8966-198CEC22A35F}"
+	ProjectSection(SolutionItems) = preProject
+		global.json = global.json
+	EndProjectSection
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "BulbasaurWebAPI.web", "src\BulbasaurWebAPI.web\BulbasaurWebAPI.web.xproj", "{0285DBDC-77BA-4DA6-A1A1-35811586EA46}"
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "BulbasaurWebAPI.dal", "src\BulbasaurWebAPI.dal\BulbasaurWebAPI.dal.xproj", "{099CED67-68E3-44A2-A991-73F07E2AFEAF}"
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "BulbasaurWebAPI.bl", "src\BulbasaurWebAPI.bl\BulbasaurWebAPI.bl.xproj", "{CEC7CF9D-B62E-4626-ADA0-D3C588696936}"
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "BulbasaurWebAPI.entity", "src\BulbasaurWebAPI.entity\BulbasaurWebAPI.entity.xproj", "{79CE859A-7E5B-4DFA-AE88-E361317B606B}"
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "BulbasaurIdentityServer", "src\BulbasaurIdentityServer\BulbasaurIdentityServer.xproj", "{BDB37633-733E-44F6-986A-7D586DD7BA90}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0285DBDC-77BA-4DA6-A1A1-35811586EA46}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0285DBDC-77BA-4DA6-A1A1-35811586EA46}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0285DBDC-77BA-4DA6-A1A1-35811586EA46}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0285DBDC-77BA-4DA6-A1A1-35811586EA46}.Release|Any CPU.Build.0 = Release|Any CPU
+		{099CED67-68E3-44A2-A991-73F07E2AFEAF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{099CED67-68E3-44A2-A991-73F07E2AFEAF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{099CED67-68E3-44A2-A991-73F07E2AFEAF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{099CED67-68E3-44A2-A991-73F07E2AFEAF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CEC7CF9D-B62E-4626-ADA0-D3C588696936}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CEC7CF9D-B62E-4626-ADA0-D3C588696936}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CEC7CF9D-B62E-4626-ADA0-D3C588696936}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CEC7CF9D-B62E-4626-ADA0-D3C588696936}.Release|Any CPU.Build.0 = Release|Any CPU
+		{79CE859A-7E5B-4DFA-AE88-E361317B606B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{79CE859A-7E5B-4DFA-AE88-E361317B606B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{79CE859A-7E5B-4DFA-AE88-E361317B606B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{79CE859A-7E5B-4DFA-AE88-E361317B606B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BDB37633-733E-44F6-986A-7D586DD7BA90}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BDB37633-733E-44F6-986A-7D586DD7BA90}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BDB37633-733E-44F6-986A-7D586DD7BA90}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BDB37633-733E-44F6-986A-7D586DD7BA90}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{0285DBDC-77BA-4DA6-A1A1-35811586EA46} = {8A478C06-D561-4ED4-B037-CA0133CE3088}
+		{099CED67-68E3-44A2-A991-73F07E2AFEAF} = {8A478C06-D561-4ED4-B037-CA0133CE3088}
+		{CEC7CF9D-B62E-4626-ADA0-D3C588696936} = {8A478C06-D561-4ED4-B037-CA0133CE3088}
+		{79CE859A-7E5B-4DFA-AE88-E361317B606B} = {8A478C06-D561-4ED4-B037-CA0133CE3088}
+		{BDB37633-733E-44F6-986A-7D586DD7BA90} = {8A478C06-D561-4ED4-B037-CA0133CE3088}
+	EndGlobalSection
+EndGlobal
